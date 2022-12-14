@@ -7,7 +7,7 @@ function App() {
     <>
       <h1>Welcome to Coffee App</h1>
       <SelectedCoffeeBean />
-       <SetCoffeeBean coffeeBeans={coffeeBeans}/>
+      <SetCoffeeBean coffeeBeans={coffeeBeans}/>
     </>
   );
 }
