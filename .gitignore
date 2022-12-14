@@ -3,6 +3,8 @@
 
 # dependencies
 /node_modules
+coffeebean/node_modules
+greenhouse/node_modules
 /.pnp
 .pnp.js
 
