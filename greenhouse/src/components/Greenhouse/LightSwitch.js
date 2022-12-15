@@ -7,12 +7,9 @@ function LightSwitch() {
   const {themeName, setThemeName} = useTheme()
   const handleClick = e => {
     let theme = e.target.innerText.toLowerCase()
-    // console.log(theme)
     if(theme === 'day') {
-      // lightSwitch.classList.remove("day")
       setThemeName('day')
     }else {
-      // lightSwitch.classList.remove("night")b
       setThemeName('night')
     }
   }
